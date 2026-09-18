@@ -1,0 +1,156 @@
+
+
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+
+
+
+
+
+body {display: grid;
+grid-template-columns: 1vw 24vw 1vw 24vw 1vw 24vw 1vw 23vw 1vw;
+grid-template-rows: 8vh 70vh 2vh 12vh 12vh 12vh 12vh 20vh;
+ }
+
+
+#typotheque { background-color: white;
+    grid-column: 2 / 9;
+    grid-row: 1 / 2 ;
+    display: flex;
+    align-items: center;
+    gap: 10px;}
+
+
+
+    
+#typologo {
+
+width: 500px; 
+height: auto;}
+
+
+#streepjes{ 
+width: 25px;
+height: auto;}
+#loginlogo { 
+width: 100px; 
+height: auto;
+margin-left: auto;}
+#zoek {
+width: 100px; 
+height: auto;
+margin-right: 10px;}
+
+#chairman { background-color: black;
+background-image: url('imgpro/chairman.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+    grid-column: 2 / 9;
+    grid-row: 2/ 3;
+}
+
+
+
+#allfonts {background-image: url('imgpro/allfonts.png') ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+grid-column: 2 / 3;
+grid-row: 4 / 8;
+}
+
+
+#globalfonts { background-image: url('imgpro/globalfonts.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+} 
+
+
+#variablefonts {background-image: url('imgpro/variablefonts.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 6 / 7;
+    grid-row: 4 / 6;
+}
+
+
+#smartfonts { background-image: url('imgpro/smartfonts.png'); 
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     grid-column: 8 / 9;
+    grid-row: 4 / 6 ;
+}
+
+
+#superfamilies {background-image: url('imgpro/superfamilies.png'); 
+background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column:  4 / 5;
+    grid-row: 6 / 8;
+}
+
+
+#legabilityfonts {background-image: url('imgpro/legibilityfonts.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 6 / 7;
+    grid-row: 6 / 8;
+}
+
+
+#opticalsizes {background-image: url('imgpro/opticalsizes.png'); 
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    grid-column: 8 / 9;
+    grid-row: 6 / 8;
+
+}
+
+
+#blog {background-color: white; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 24vw;
+    grid-column: 2 / 9;
+    grid-row:  8 / 9 ;
+}
+#vieuwallpoints {  
+width: 500px;
+max-width: none;
+height: auto;}
+
+#blog h2 { font-size: 90px;
+    margin-left: 30px;
+font-weight: bold;}
